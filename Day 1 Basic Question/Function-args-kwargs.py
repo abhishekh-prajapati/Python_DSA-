@@ -58,4 +58,10 @@
 # Create a function sum_of_squares(*args) that returns the sum of
 # squares of all given numbers.
 
+def sum_of_square(*args):
+    total = 0
+    for num in args:
+        total = total + (num * num)
+    return total
+print(sum_of_square(2,3,4))
 
