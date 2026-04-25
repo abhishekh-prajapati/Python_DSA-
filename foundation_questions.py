@@ -5,7 +5,12 @@
 # print(word[::-1])
 #
 
-#Q2: Convert Text Format
-text = ("python is easy")
-print(text.upper())
-print(text.title())
+# #Q2: Convert Text Format
+# text = ("python is easy")
+# print(text.upper())
+# print(text.title())
+
+# Q3: Using f-String
+name = "Rahul"
+age = 25
+print(f"my name is {name} anda I am {age} years old")
