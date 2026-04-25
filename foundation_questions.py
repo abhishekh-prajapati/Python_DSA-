@@ -11,6 +11,10 @@
 # print(text.title())
 
 # Q3: Using f-String
-name = "Rahul"
-age = 25
-print(f"my name is {name} anda I am {age} years old")
+# name = "Rahul"
+# age = 25
+# print(f"my name is {name} anda I am {age} years old")
+
+# Q4: Count Characters
+word = "banana"
+print(word.count("a"))
