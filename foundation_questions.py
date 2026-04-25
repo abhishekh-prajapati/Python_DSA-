@@ -2,4 +2,5 @@
 word =  "Developer"
 print(word[0])
 print(word[-1])
-print(word.replace("Developer" , "Webdeveloper"))
+print(word[::-1])
+
