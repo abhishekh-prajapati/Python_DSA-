@@ -16,5 +16,12 @@
 # print(f"my name is {name} anda I am {age} years old")
 
 # Q4: Count Characters
-word = "banana"
-print(word.count("a"))
+# word = "banana"
+# print(word.count("a"))
+
+##################LIST######################
+
+fruits = ["apple", "banana","mango","orange"]
+print(fruits[0])
+print(fruits[-1])
+print(fruits[1])
