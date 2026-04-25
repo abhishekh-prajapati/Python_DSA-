@@ -20,8 +20,16 @@
 # print(word.count("a"))
 
 ##################LIST######################
+# Q1: Create and Access List
 
-fruits = ["apple", "banana","mango","orange"]
-print(fruits[0])
-print(fruits[-1])
-print(fruits[1])
+# fruits = ["apple", "banana","mango","orange"]
+# print(fruits[0])
+# print(fruits[-1])
+# print(fruits[1])
+
+# Q2: Add Items to List
+
+numbers = [10,20,30]
+numbers.append(40)
+numbers.insert(1,15)
+print(numbers)
