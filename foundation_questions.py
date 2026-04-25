@@ -29,7 +29,14 @@
 
 # Q2: Add Items to List
 
-numbers = [10,20,30]
-numbers.append(40)
-numbers.insert(1,15)
-print(numbers)
+# numbers = [10,20,30]
+# numbers.append(40)
+# numbers.insert(1,15)
+# print(numbers)
+
+# Q3: Remove Items from List
+
+colors = ["red", "blue","green","yellow"]
+colors.remove("blue")
+colors.pop()
+print(colors)
