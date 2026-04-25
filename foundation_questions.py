@@ -43,7 +43,9 @@
 
 # Q4: Sort and Reverse List
 
-nums = [4,1,8,2,5]
-nums.sort()
-nums.reverse()
-print(nums)
+# nums = [4,1,8,2,5]
+# nums.sort()
+# nums.reverse()
+# print(nums)
+
+##################TUPLE######################
