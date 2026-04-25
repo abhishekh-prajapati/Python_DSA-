@@ -49,3 +49,9 @@
 # print(nums)
 
 ##################TUPLE######################
+# Q1: Tuple Basics
+colors = ("red","blue","green","yellow")
+
+colors[0]
+colors[-1]
+print(len(colors))
