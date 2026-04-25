@@ -36,7 +36,14 @@
 
 # Q3: Remove Items from List
 
-colors = ["red", "blue","green","yellow"]
-colors.remove("blue")
-colors.pop()
-print(colors)
+# colors = ["red", "blue","green","yellow"]
+# colors.remove("blue")
+# colors.pop()
+# print(colors)
+
+# Q4: Sort and Reverse List
+
+nums = [4,1,8,2,5]
+nums.sort()
+nums.reverse()
+print(nums)
