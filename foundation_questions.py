@@ -102,8 +102,22 @@
 # print(result)
 
 # Q4: Intersection of Sets
-set1 = {1,2,3,4}
-set2 = {3,4,5,6}
+# set1 = {1,2,3,4}
+# set2 = {3,4,5,6}
+#
+# result = set1.intersection(set2)
+# print(result)
 
-result = set1.intersection(set2)
-print(result)
+
+##################Dictionaries######################
+
+
+#Q1 How to Access a Value
+Student = {
+    "name": "Rahul",
+    "age": 25,
+    "city":"Mumbai"
+}
+
+print(Student["name"])
+print(Student["city"])
