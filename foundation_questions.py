@@ -136,11 +136,23 @@
 
 
 # Q3: get() and update()
-person = {
-    "name": "Amit",
-    "age": 28
-}
-print(person.get("name"))
-person.update({"city" : "Delhi"})
-print(person)
+# person = {
+#     "name": "Amit",
+#     "age": 28
+# }
+# print(person.get("name"))
+# person.update({"city" : "Delhi"})
+# print(person)
+#
+
+###################QUESTIONSSS######################
+# finding vowels
+# Text = "programming"
+# count = 0
+# for t in Text:
+#     if t in "aeiou":
+#         count += 1
+#
+# print(count)
+
 
