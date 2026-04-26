@@ -113,11 +113,34 @@
 
 
 #Q1 How to Access a Value
-Student = {
-    "name": "Rahul",
-    "age": 25,
-    "city":"Mumbai"
-}
+# Student = {
+#     "name": "Rahul",
+#     "age": 25,
+#     "city":"Mumbai"
+# }
+#
+# print(Student["name"])
+# print(Student["city"])
 
-print(Student["name"])
-print(Student["city"])
+
+
+# Q2: Dictionary Methods — keys(), values(), items()
+# car = {
+#     "brand": "Toyota",
+#     "model": "Camry",
+#     "year": 2022
+# }
+# print(car.keys())
+# print(car.values())
+# print(car.items())
+
+
+# Q3: get() and update()
+person = {
+    "name": "Amit",
+    "age": 28
+}
+print(person.get("name"))
+person.update({"city" : "Delhi"})
+print(person)
+
