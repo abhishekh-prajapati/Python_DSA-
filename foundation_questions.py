@@ -73,3 +73,7 @@ person = (name , age , city )
 name , age , city = person
 
 print(person)
+
+print(name)
+print(age)
+print(city)
