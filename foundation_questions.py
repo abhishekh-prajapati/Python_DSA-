@@ -50,8 +50,26 @@
 
 ##################TUPLE######################
 # Q1: Tuple Basics
-colors = ("red","blue","green","yellow")
+# colors = ("red","blue","green","yellow")
+#
+# colors[0]
+# colors[-1]
+# print(len(colors))
 
-colors[0]
-colors[-1]
-print(len(colors))
+
+# text = "Banana"
+# text.upper()
+# text.replace("a","o")
+# print(text)
+#
+
+# Q2 Tuple packing and unpacking
+
+name = "Rahul"
+age = 25
+city = "Mumbai"
+
+person = (name , age , city )
+name , age , city = person
+
+print(person)
