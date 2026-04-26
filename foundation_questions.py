@@ -156,3 +156,38 @@
 # print(count)
 
 
+# Q2: Palindrome Check
+# word = "madam"
+#
+# if word == word[::1]:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+# Q3: Count Character Frequency
+# text = "banana"
+# for ch in set(text):
+#     print(ch,":",text.count(ch))
+
+
+# Q4: Remove Duplicate Characters
+# text = "programming"
+# result = ""
+# for i in text:
+#     if i not in result:
+#         result += i
+# print(result)
+
+# Q5: Find Longest Word
+sentence = "Python is very powerful language"
+
+words = sentence.split()
+longest = ""
+
+for word in words:
+    if len(word) > len(longest):
+        longest = word
+
+print(longest)
+
+
