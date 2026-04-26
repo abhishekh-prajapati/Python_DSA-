@@ -65,15 +65,24 @@
 
 # Q2 Tuple packing and unpacking
 
-name = "Rahul"
-age = 25
-city = "Mumbai"
+# name = "Rahul"
+# age = 25
+# city = "Mumbai"
+#
+# person = (name , age , city )
+# name , age , city = person
+#
+# print(person)
+#
+# print(name)
+# print(age)
+# print(city)
 
-person = (name , age , city )
-name , age , city = person
 
-print(person)
 
-print(name)
-print(age)
-print(city)
+##################SETS######################
+
+# Q1: Unique Values
+nums = {1,2,2,3,4,4,5}
+print(nums)
+
