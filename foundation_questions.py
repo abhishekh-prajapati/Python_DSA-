@@ -81,8 +81,29 @@
 
 
 ##################SETS######################
+#
+# # Q1: Unique Values
+# nums = {1,2,2,3,4,4,5}
+# print(nums)
 
-# Q1: Unique Values
-nums = {1,2,2,3,4,4,5}
-print(nums)
+# Q2: Add and Remove in Set
 
+# fruits = {"apple","banana","mango"}
+# fruits.add("orange")
+# fruits.remove("banana")
+# print(fruits)
+
+# Q3: Union of Sets
+
+# set1 = {1,2,3}
+# set2 = {3,4,5}
+#
+# result = set1.union(set2)
+# print(result)
+
+# Q4: Intersection of Sets
+set1 = {1,2,3,4}
+set2 = {3,4,5,6}
+
+result = set1.intersection(set2)
+print(result)
