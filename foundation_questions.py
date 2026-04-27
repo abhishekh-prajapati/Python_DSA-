@@ -203,17 +203,30 @@
 
 
 # Q7: Find Second Largest Number
-nums = [10, 45, 23, 67, 12]
+# nums = [10, 45, 23, 67, 12]
+#
+# largest = nums[0]
+# second_largest = nums[0]
+#
+# for num in nums:
+#     if num > largest:
+#         second_largest = largest
+#         largest = num
+#     elif num > second_largest and num != largest:
+#         second_largest = num
+#
+# print(second_largest)
 
-largest = nums[0]
-second_largest = nums[0]
 
-for num in nums:
-    if num > largest:
-        second_largest = largest
-        largest = num
-    elif num > second_largest and num != largest:
-        second_largest = num
+# Q8: Remove Duplicates from List
 
-print(second_largest)
+# nums = [1, 2, 2, 3, 4, 4, 5]
+#
+# result = []
+#
+# for num in nums:
+#     if num not in result:
+#         result.append(num)
+#
+# print(result)
 
