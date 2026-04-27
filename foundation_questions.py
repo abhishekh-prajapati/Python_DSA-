@@ -179,15 +179,41 @@
 # print(result)
 
 # Q5: Find Longest Word
-sentence = "Python is very powerful language"
+# sentence = "Python is very powerful language"
 
-words = sentence.split()
-longest = ""
+# words = sentence.split()
+# longest = ""
 
-for word in words:
-    if len(word) > len(longest):
-        longest = word
+# for word in words:
+#     if len(word) > len(longest):
+#         longest = word
 
-print(longest)
+# print(longest)
 
+# Q6: Find Maximum Number
+
+# nums = [4, 7, 2, 9, 1]
+#
+# largest = nums[0]
+#
+# for num in nums:
+#     if num > largest:
+#         largest = num
+# print(largest)
+
+
+# Q7: Find Second Largest Number
+nums = [10, 45, 23, 67, 12]
+
+largest = nums[0]
+second_largest = nums[0]
+
+for num in nums:
+    if num > largest:
+        second_largest = largest
+        largest = num
+    elif num > second_largest and num != largest:
+        second_largest = num
+
+print(second_largest)
 
