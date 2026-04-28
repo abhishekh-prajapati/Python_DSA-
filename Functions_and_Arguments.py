@@ -8,3 +8,5 @@
 
 def greet(name):
     print("Hello", name)
+#Arguments
+greet("Abhishekh")
