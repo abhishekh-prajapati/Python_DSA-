@@ -232,13 +232,23 @@
 
 # Q10: Find Common Elements
 
-list1 = [1, 2, 3, 4]
-list2 = [3, 4, 5, 6]
+# list1 = [1, 2, 3, 4]
+# list2 = [3, 4, 5, 6]
+#
+# result = []
+#
+# for num in list1:
+#     for hello in list2:
+#         if num == hello:
+#             result.append(num)
+# print(result)
 
-result = []
+# Q11: Find Maximum Value in Tuple
 
-for num in list1:
-    for hello in list2:
-        if num == hello:
-            result.append(num)
-print(result)
+# numbers = (12, 45, 7, 89, 23)
+# result = (0)
+#
+# for num in numbers:
+#     if num > result:
+#         result = num
+# print(result)
