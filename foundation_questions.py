@@ -234,3 +234,11 @@
 
 list1 = [1, 2, 3, 4]
 list2 = [3, 4, 5, 6]
+
+result = []
+
+for num in list1:
+    for hello in list2:
+        if num == hello:
+            result.append(num)
+print(result)
