@@ -30,7 +30,15 @@
 # student("Rahul", 20)
 
 #Keyword Arguments
+#
+# def student(name, age):
+#     print(name , age)
+# student(age=20, name="Rahul")
 
-def student(name, age):
-    print(name , age)
-student(age=20, name="Rahul")
+#Default Arguments
+
+# def greet(name="Guest"):
+#     print("Hello", name)
+# greet()
+# greet("Sam")
+
