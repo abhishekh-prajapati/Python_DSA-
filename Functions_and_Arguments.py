@@ -42,3 +42,7 @@
 # greet()
 # greet("Sam")
 
+#Variable length Arguments
+def add(*numbers):
+    print(numbers)
+add(1,2,3,4)
