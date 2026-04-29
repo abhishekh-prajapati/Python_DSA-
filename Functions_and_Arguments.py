@@ -25,6 +25,12 @@
 
 #####################Types of Arguments########################
 # Positional Arguments
-def student(name , age):
-    print(name, age)
-student("Rahul", 20)
+# def student(name , age):
+#     print(name, age)
+# student("Rahul", 20)
+
+#Keyword Arguments
+
+def student(name, age):
+    print(name , age)
+student(age=20, name="Rahul")
