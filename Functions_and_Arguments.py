@@ -76,3 +76,5 @@
 # show_numbers(5, 10 , 15)
 
 #Lambda Functions
+square = lambda x: x * x
+print(square(5))
