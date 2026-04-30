@@ -47,8 +47,15 @@
 #     print(numbers)
 # add(1,2,3,4)
 
-# Q2. Create a function student() that takes name and age and prints both.
-def student(name , age):
-    print(name , age)
-student(name = "Abhishekh" , age = 20)
-student("Abhishekh" ,20)
+# # Q2. Create a function student() that takes name and age and prints both.
+# def student(name , age):
+#     print(name , age)
+# student(name = "Abhishekh" , age = 20)
+# student("Abhishekh" ,20)
+
+
+#Speacial Arguments
+
+def add(*args):
+    print(args)
+add(10,20,30)
