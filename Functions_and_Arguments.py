@@ -84,11 +84,20 @@
 # multiply = lambda x , y : x  * y
 # print(multiply(4,5))
 
-#Recursion
+# #Recursion
+# def countdown(n):
+#     if n == 0:
+#         print("Done")
+#     else:
+#         print(n)
+#         countdown(n - 1)
+# countdown(5)
+
+# Q5. Write a recursive function to print numbers from 3 to 1.
 def countdown(n):
     if n == 0:
-        print("Done")
+        return
     else:
         print(n)
         countdown(n - 1)
-countdown(5)
+countdown(3)
