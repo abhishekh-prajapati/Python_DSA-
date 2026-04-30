@@ -56,6 +56,13 @@
 
 #Speacial Arguments
 
-def add(*args):
-    print(args)
-add(10,20,30)
+# def add(*args):
+#     print(args)
+# add(10,20,30)
+
+#
+# *Kwargs
+
+def details(**kwargs):
+    print(kwargs)
+details(name="Abhishekh", age=21)
