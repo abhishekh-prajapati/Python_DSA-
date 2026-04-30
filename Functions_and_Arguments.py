@@ -76,5 +76,10 @@
 # show_numbers(5, 10 , 15)
 
 #Lambda Functions
-square = lambda x: x * x
-print(square(5))
+# square = lambda x: x * x
+# print(square(5))
+
+# Q4. Create a lambda function to multiply two numbers.
+
+multiply = lambda x , y : x  * y
+print(multiply(4,5))
