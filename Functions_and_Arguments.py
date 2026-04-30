@@ -81,5 +81,14 @@
 
 # Q4. Create a lambda function to multiply two numbers.
 
-multiply = lambda x , y : x  * y
-print(multiply(4,5))
+# multiply = lambda x , y : x  * y
+# print(multiply(4,5))
+
+#Recursion
+def countdown(n):
+    if n == 0:
+        print("Done")
+    else:
+        print(n)
+        countdown(n - 1)
+countdown(5)
