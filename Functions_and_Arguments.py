@@ -63,6 +63,14 @@
 #
 # *Kwargs
 
-def details(**kwargs):
-    print(kwargs)
-details(name="Abhishekh", age=21)
+# def details(**kwargs):
+#     print(kwargs)
+# details(name="Abhishekh", age=21)
+
+# Q3. Create a function using *args that prints all numbers passed.
+
+
+def show_numbers(*args):
+    for num in args:
+        print(num)
+show_numbers(5, 10 , 15)
