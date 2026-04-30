@@ -70,7 +70,9 @@
 # Q3. Create a function using *args that prints all numbers passed.
 
 
-def show_numbers(*args):
-    for num in args:
-        print(num)
-show_numbers(5, 10 , 15)
+# def show_numbers(*args):
+#     for num in args:
+#         print(num)
+# show_numbers(5, 10 , 15)
+
+#Lambda Functions
