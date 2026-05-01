@@ -94,11 +94,17 @@
 # countdown(5)
 
 # Q5. Write a recursive function to print numbers from 3 to 1./
+#
+# def countdown(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     countdown(n - 1)
+#
+# countdown(3)
 
-def countdown(n):
-    if n == 0:
-        return
-    print(n)
-    countdown(n - 1)
+# Q1 — Basic Function + Return
 
-countdown(3)
+def square(num):
+    return num * num
+print(square(4))
