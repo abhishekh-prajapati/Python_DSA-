@@ -105,6 +105,12 @@
 
 # Q1 — Basic Function + Return
 
-def square(num):
-    return num * num
-print(square(4))
+# def square(num):
+#     return num * num
+# print(square(4))
+
+# Q2 — Default Argument
+def greet(name = "Guest"):
+    print("Hello", name)
+greet()
+greet("Abhishekh")
