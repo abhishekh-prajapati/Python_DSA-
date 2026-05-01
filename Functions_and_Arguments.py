@@ -116,11 +116,12 @@
 # greet("Abhishekh")
 
 # Q3 — *args (slightly logical)
-def find_max(*args):
-    largest = args[0]
-
-    for num in args:
-        if num > largest:
-            largest = num
-    return largest
-print(find_max(3, 7, 2, 9, 5))
+# def find_max(*args):
+#     largest = args[0]
+#
+#     for num in args:
+#         if num > largest:
+#             largest = num
+#     return largest
+# print(find_max(3, 7, 2, 9, 5))
+#
