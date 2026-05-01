@@ -93,11 +93,12 @@
 #         countdown(n - 1)
 # countdown(5)
 
-# Q5. Write a recursive function to print numbers from 3 to 1.
+# Q5. Write a recursive function to print numbers from 3 to 1./
+
 def countdown(n):
     if n == 0:
         return
-    else:
-        print(n)
-        countdown(n - 1)
+    print(n)
+    countdown(n - 1)
+
 countdown(3)
