@@ -138,3 +138,23 @@
 #     return n + sum_n(n - 1)
 # print(sum_n(5))
 
+# Q6 — Mixed (Function + *args + Logic)
+# def sum_even(*args):
+#     total = 0
+#
+#     for num in args:
+#         if num % 2 == 0:
+#             total += num
+#     return total
+# print(sum_even(1,2,3,4,5,6))
+
+# Q7 — Lambda + *args + Logic (Harder)
+def count_even(*args):
+    is_even = lambda x:x % 2 == 0
+    count = 0
+
+    for num in args:
+        if is_even(num):
+            count += 1
+    return count
+print(count_even(1,2,3,4,5,6,7,8,9))
