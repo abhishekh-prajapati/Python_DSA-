@@ -124,4 +124,9 @@
 #             largest = num
 #     return largest
 # print(find_max(3, 7, 2, 9, 5))
-#
+
+# Q4 — Lambda + Logic
+is_even = lambda x: x % 2 ==0
+
+print(is_even(4))
+print(is_even(7))
