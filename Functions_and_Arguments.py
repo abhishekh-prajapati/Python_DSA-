@@ -149,12 +149,22 @@
 # print(sum_even(1,2,3,4,5,6))
 
 # Q7 — Lambda + *args + Logic (Harder)
-def count_even(*args):
-    is_even = lambda x:x % 2 == 0
-    count = 0
+# def count_even(*args):
+#     is_even = lambda x:x % 2 == 0
+#     count = 0
+#
+#     for num in args:
+#         if is_even(num):
+#             count += 1
+#     return count
+# print(count_even(1,2,3,4,5,6,7,8,9))
 
-    for num in args:
-        if is_even(num):
-            count += 1
-    return count
-print(count_even(1,2,3,4,5,6,7,8,9))
+# Q8 — Recursion (Logic-Based)
+def count_digits(n):
+    if n < 10:
+        return 1
+    return 1 + count_digits(n // 10)
+
+print(count_digits(12345))
+print(count_digits(7))
+print(count_digits(1000))
