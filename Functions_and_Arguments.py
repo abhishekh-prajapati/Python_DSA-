@@ -159,12 +159,21 @@
 #     return count
 # print(count_even(1,2,3,4,5,6,7,8,9))
 
-# Q8 — Recursion (Logic-Based)
-def count_digits(n):
-    if n < 10:
-        return 1
-    return 1 + count_digits(n // 10)
+# # Q8 — Recursion (Logic-Based)
+# def count_digits(n):
+#     if n < 10:
+#         return 1
+#     return 1 + count_digits(n // 10)
+#
+# print(count_digits(12345))
+# print(count_digits(7))
+# print(count_digits(1000))
 
-print(count_digits(12345))
-print(count_digits(7))
-print(count_digits(1000))
+# Q9 — Recursion (Reverse a Number)
+def reverse_number(n, rev=0):
+    if n == 0:
+        return rev
+    return reverse_number(n // 10, rev * 10 + n % 10)
+
+print(reverse_number(1234))
+print(reverse_number(120))
