@@ -179,10 +179,21 @@
 # print(reverse_number(1234))
 # print(reverse_number(120))
 
-def countdown(n):
+# def countdown(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     countdown(n - 1)
+#
+# countdown(3)
+
+ # Thinking Shift (Important)
+
+def print_up(n):
     if n == 0:
         return
+    print_up(n - 1)
     print(n)
-    countdown(n - 1)
+print_up(3)
 
-countdown(3)
+
