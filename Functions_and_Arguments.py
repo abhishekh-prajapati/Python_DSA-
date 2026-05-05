@@ -148,7 +148,7 @@
 #     return total
 # print(sum_even(1,2,3,4,5,6))
 
-# Q7 — Lambda + *args + Logic (Harder)
+# # Q7 — Lambda + *args + Logic (Harder)
 # def count_even(*args):
 #     is_even = lambda x:x % 2 == 0
 #     count = 0
@@ -170,10 +170,19 @@
 # print(count_digits(1000))
 
 # Q9 — Recursion (Reverse a Number)
-def reverse_number(n, rev=0):
-    if n == 0:
-        return rev
-    return reverse_number(n // 10, rev * 10 + n % 10)
 
-print(reverse_number(1234))
-print(reverse_number(120))
+# def reverse_number(n, rev=0):
+#     if n == 0:
+#         return rev
+#     return reverse_number(n // 10, rev * 10 + n % 10)
+#
+# print(reverse_number(1234))
+# print(reverse_number(120))
+
+def countdown(n):
+    if n == 0:
+        return
+    print(n)
+    countdown(n - 1)
+
+countdown(3)
