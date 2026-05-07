@@ -12,3 +12,27 @@ print(file.readline())
 print(file.readline())
 
 file.close()
+
+#Write
+file = open("data.txt","w")
+
+file.write("I am learning Python")
+
+file.close()
+###I am learning python
+###Old content will be erased
+
+
+#Append()
+file = open("data.txt","a")
+
+file.write("\nNew line added")
+
+file.close()
+###I am learning Python
+### New line added
+
+
+#close()
+file.close()
+### open file consume system resources
