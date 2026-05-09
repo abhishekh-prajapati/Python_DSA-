@@ -107,10 +107,10 @@ from test.test_win32trace import BasicSetupTearDown
 #     file.write("\n File handling is intresting")
 
 #count lines
-count = 0
-
-with open("student.txt", "r") as file:
-    for line in file:
-        count += 1
-
-print(count)
+# count = 0
+#
+# with open("student.txt", "r") as file:
+#     for line in file:
+#         count += 1
+#
+# print(count)
