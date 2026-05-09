@@ -96,7 +96,12 @@ from test.test_win32trace import BasicSetupTearDown
 #     json.dump(data,file)
 
 #Reading JSON
-import json
-with open("data.json","r") as file:
-    data = json.load(file)
-print(data)
+# import json
+# with open("data.json","r") as file:
+#     data = json.load(file)
+# print(data)
+
+###########Solvinf problems#############
+#Append data
+with open ("notes.txt","a") as file:
+    file.write("\n File handling is intresting")
