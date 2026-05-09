@@ -103,5 +103,14 @@ from test.test_win32trace import BasicSetupTearDown
 
 ###########Solvinf problems#############
 #Append data
-with open ("notes.txt","a") as file:
-    file.write("\n File handling is intresting")
+# with open ("notes.txt","a") as file:
+#     file.write("\n File handling is intresting")
+
+#count lines
+count = 0
+
+with open("student.txt", "r") as file:
+    for line in file:
+        count += 1
+
+print(count)
