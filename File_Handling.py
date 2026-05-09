@@ -87,10 +87,16 @@ from test.test_win32trace import BasicSetupTearDown
 
 # JSON Basic
 #Writing JSON
+# import json
+# data={
+#     "name": "Rahul",
+#     "age": 20
+# }
+# with open("data.json", "w") as file:
+#     json.dump(data,file)
+
+#Reading JSON
 import json
-data={
-    "name": "Rahul",
-    "age": 20
-}
-with open("data.json", "w") as file:
-    json.dump(data,file)
+with open("data.json","r") as file:
+    data = json.load(file)
+print(data)
