@@ -245,10 +245,10 @@
 
 # Q11: Find Maximum Value in Tuple
 
-numbers = (12, 45, 7, 89, 23)
-result = (0)
-
-for num in numbers:
-    if num > result:
-        result = num
-print(result)
+# numbers = (12, 45, 7, 89, 23)
+# result = (0)
+#
+# for num in numbers:
+#     if num > result:
+#         result = num
+# print(result)
