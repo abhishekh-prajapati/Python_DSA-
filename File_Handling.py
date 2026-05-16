@@ -115,3 +115,8 @@ from test.test_win32trace import BasicSetupTearDown
 #
 # print(count)
 
+# count line
+with open("student.txt","r") as file:
+    content = file.read()
+words = content.split()
+print(len(words))
