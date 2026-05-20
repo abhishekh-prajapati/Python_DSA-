@@ -139,12 +139,20 @@ from test.test_win32trace import BasicSetupTearDown
 
 # we will do small project next time
 # Count Specific Word
+# with open("source.txt","r") as file:
+#     content = file.read()
+# count = 0
+# words = content.split()
+#
+# for word in words:
+#     if word == "python":
+#         count += 1
+# print(count)
+
+
+# Easier method
 with open("source.txt","r") as file:
     content = file.read()
-count = 0
-words = content.split()
 
-for word in words:
-    if word == "python":
-        count += 1
-print(count)
+    words = content.split()
+    print(words.count("python"))
