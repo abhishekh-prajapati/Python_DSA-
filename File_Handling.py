@@ -151,8 +151,13 @@ from test.test_win32trace import BasicSetupTearDown
 
 
 # Easier method
-with open("source.txt","r") as file:
-    content = file.read()
+# with open("source.txt","r") as file:
+#     content = file.read()
+#
+#     words = content.split()
+#     print(words.count("python"))
 
-    words = content.split()
-    print(words.count("python"))
+# Reverse File Content
+with open("Source.txt") as file:
+    content = file.read()
+print(content[::-1])
