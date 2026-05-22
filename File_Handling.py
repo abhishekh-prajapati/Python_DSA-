@@ -180,7 +180,14 @@ from test.test_win32trace import BasicSetupTearDown
 
 #Find Number of Charachters
 
-with open("Student.txt","r") as file:
+# with open("Student.txt","r") as file:
+#     content = file.read()
+#
+# print(len(content))
+
+#Remove space from dile content
+with open("source.txt","r")as file:
     content = file.read()
 
-print(len(content))
+new_content = content.replace(" ","")
+print(new_content)
