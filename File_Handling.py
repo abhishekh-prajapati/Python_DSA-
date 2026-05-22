@@ -158,6 +158,21 @@ from test.test_win32trace import BasicSetupTearDown
 #     print(words.count("python"))
 
 # Reverse File Content
-with open("Source.txt") as file:
-    content = file.read()
-print(content[::-1])
+# with open("Source.txt") as file:
+#     content = file.read()
+# print(content[::-1])
+
+
+
+# Merge Two files
+
+with open("source.txt","r") as file:
+    content1 = file.read()
+
+with open("student.txt","r")as file:
+    content2 = file.read()
+
+with open("merged.txt","w") as file:
+    file.write(content1)
+    file.write("\n")
+    file.write(content2)
