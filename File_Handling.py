@@ -185,9 +185,10 @@ from test.test_win32trace import BasicSetupTearDown
 #
 # print(len(content))
 
-#Remove space from dile content
-with open("source.txt","r")as file:
-    content = file.read()
+#Remove space from file content
+# with open("source.txt","r")as file:
+#     content = file.read()
+#
+# new_content = content.replace(" ","")
+# print(new_content)
 
-new_content = content.replace(" ","")
-print(new_content)
