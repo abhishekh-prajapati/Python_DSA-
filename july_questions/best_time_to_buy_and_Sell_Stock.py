@@ -1,6 +1,7 @@
 def solution(price):
     low_store = price[0]
     high_store = 0
+        
     for i in price:
         if i < low_store:
             low_store = i
